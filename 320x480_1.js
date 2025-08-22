@@ -40,7 +40,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,771,769);
 (lib.dog = function() {
 	this.initialize(img.dog);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,386,682);
+p.nominalBounds = new cjs.Rectangle(0,0,414,878);
 
 
 (lib.fig = function() {
@@ -1070,13 +1070,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.dog();
-	this.instance.setTransform(0,0,0.4151,0.4151);
+	this.instance.setTransform(-20,-18,0.4606,0.4606);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol6, new cjs.Rectangle(0,0,160.2,283.1), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol6, new cjs.Rectangle(-20,-18,190.7,404.4), null);
 
 
 (lib.Symbol1 = function(mode,startPosition,loop,reversed) {
